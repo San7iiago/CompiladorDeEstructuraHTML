@@ -1,0 +1,13 @@
+<input type="text" name="t1"> 
+<h1> Etiqueta propuesta </h1>
+<input type="number" name="t2" max="10"> 
+<input type="date" name="t3"> 
+<input type="radio" name="t4"> 
+<input type="checkbox" name="t5">
+<Label>Enter at number</Label> 
+<select name="l1"> 
+    <option>Red</option> 
+    <option>Blue 2</option> 
+    <option>Orange 3</option> 
+</select>
+<!--Los parametros se asignan con " doble-->

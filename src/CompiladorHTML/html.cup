@@ -1,0 +1,16 @@
+package ejerhtml;
+import java_cup.runtime.*;
+
+parser code {:
+    public String errsin = "";
+    public void syntax_error (Symbol token){
+        errsin += ("\nError de sintaxis en pos " + (token.left+1) + "," + (token.right+1));
+        throw new UnsupportedOperationException ("\nError de sintaxis en pos " + (token.left+1) + "," + (token.right+1));
+       
+    }
+:};
+
+terminal titulo, id, num, comparador, texto;
+non terminal A;
+
+A ::= num;
